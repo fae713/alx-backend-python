@@ -20,7 +20,7 @@ async def wait_n(n: int, max_delay: int) -> list[float]:
     2. max_delay (int): The maximum delay in seconds for wait_random.
 
     Returns:
-    1. list: A list9float) of delays in ascending order.
+    1. list: A list[float] of delays in ascending order.
     """
 
     delays = []
