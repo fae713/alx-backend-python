@@ -13,14 +13,14 @@ wait_random = __import__('0-basic_async_syntax').wait_random
 # from basic_async_syntax import wait_random
 
 
-async def wait_n(n: int, max_delay: int) -> list:
+async def wait_n(n: int, max_delay: int) -> list[float]:
     """
     Parameters:
     1. n (int): The number of times to spawn wait_random.
     2. max_delay (int): The maximum delay in seconds for wait_random.
 
     Returns:
-    1. list: A list of delays in ascending order.
+    1. list: A list9float) of delays in ascending order.
     """
 
     delays = []
