@@ -7,7 +7,6 @@ and returns total_time / n. Your function should return a float.
 """
 
 import asyncio
-from typing import List
 import time
 
 wait_n = __import__('1-concurrent_coroutines').wait_n
