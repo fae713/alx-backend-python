@@ -13,14 +13,14 @@ import time
 wait_n = __import__('1-concurrent_coroutines').wait_n
 
 
-def measure_time(n: int, max_delay: int) -> List[float]:
+def measure_time(n: int, max_delay: int) -> float:
     """
     parameters:
         1. n (int) = the number of time to spawn wait_n.
         2. max_delay (int) = the time interval between wait_n.
 
     return:
-        1. List[float] = the average time per delay for wait_n.
+        1. float = the average time per delay for wait_n.
     """
 
     total_time = 0
