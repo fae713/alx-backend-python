@@ -12,7 +12,7 @@ from typing import Any
 wait_random = __import__('0-basic_async_syntax').wait_random
 
 
-def task_wait_random(max_delay: int) -> Task[Any]:
+def task_wait_random(max_delay: int) -> Task:
     """
     paramaeters:
         1. max_delay = time it takes to return the wait_random
