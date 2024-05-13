@@ -6,12 +6,13 @@ that takes an integer max_delay and returns a asyncio.Task.
 """
 
 import asyncio
+from asyncio import Task
 from typing import Any
 
 wait_random = __import__('0-basic_async_syntax').wait_random
 
 
-def task_wait_random(max_delay: int) -> asyncio.task[Any]:
+def task_wait_random(max_delay: int) -> Task[Any]:
     """
     paramaeters:
         1. max_delay = time it takes to return the wait_random
