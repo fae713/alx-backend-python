@@ -1,4 +1,4 @@
-#!/usr/bin/ env python3
+#!/usr/bin/env python3
 
 """
 Create a measure_time function with integers n and max_delay
