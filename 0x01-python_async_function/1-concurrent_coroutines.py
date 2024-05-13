@@ -7,7 +7,6 @@ It collects the delays in a list and sorts them in ascending order.
 """
 
 import asyncio
-import random
 from typing import List
 
 wait_random = __import__('0-basic_async_syntax').wait_random
@@ -15,7 +14,7 @@ wait_random = __import__('0-basic_async_syntax').wait_random
 # from basic_async_syntax import wait_random
 
 
-async def wait_n(n: int, max_delay: int) -> list[float]:
+async def wait_n(n: int, max_delay: int) -> List[float]:
     """
     Parameters:
     1. n (int): The number of times to spawn wait_random.
