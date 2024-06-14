@@ -2,7 +2,7 @@
 """
 This module contains a coroutine that will collect 10 random numbers
 using an async comprehensing over async_generator,
-then return the 10 random numbers.
+then return the 10 random numbers defined in 0-aync_genrator.
 """
 
 from typing import Generator
