@@ -12,7 +12,7 @@ import random
 
 async def async_generator() -> Generator[float, None, None]:  # type: ignore
     """
-    This is an async coroutine that yields random numbers from 0 - 10.
+    This is an async coroutine that yields random floating numbers from 0 - 10.
     """
 
     for i in range(10):
