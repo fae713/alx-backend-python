@@ -16,4 +16,3 @@ i_understand_annotations: bool = True
 
 # A string with a value of "Holberton"
 school: str = "Holberton"
-
