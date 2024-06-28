@@ -2,10 +2,10 @@
 """
 Duck typing - first element of a sequence
 """
-from typing import Optional, Any, Iterable
+from typing import Optional, Any, Sequence
 
 
-def safe_first_element(lst: Iterable[Any]) -> Optional[Any]:
+def safe_first_element(lst: Sequence[Any]) -> Optional[Any]:
     """
     Returns the first element of the iterable if it exists;
     otherwise, returns None.
