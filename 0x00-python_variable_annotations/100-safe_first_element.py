@@ -7,7 +7,7 @@ from typing import Optional, Any, Sequence
 
 def safe_first_element(lst: Sequence[Any]) -> Optional[Any]:
     """
-    Returns the first element of the iterable if it exists;
+    Returns the first element of the sequence if it exists;
     otherwise, returns None.
     """
     if lst:
