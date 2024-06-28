@@ -7,4 +7,7 @@ from typing import List
 
 
 def add(a: float, b: float) -> float:
+    """
+    This function adds two floats together.
+    """
     return a + b
